@@ -1,0 +1,82 @@
+
+.songs-list{
+    
+    width:100%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    animation: ease_top 3s;
+}
+@keyframes ease_top {
+    from{opacity:0}
+    to{opacity:1}
+}
+.section_name{
+    margin:5px;
+    font-size: 30px;
+    color:white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.search-bar{
+    /* width:100%; */
+    display: flex;
+    flex-direction: row;
+   
+    /* justify-content: centers; */
+    align-items: center;
+    margin-bottom: 15px;
+}
+.search-bar input{
+    width: 100%;
+    /* height: 100%; */
+    color : white;
+    background-color: #555;
+    opacity: 0.4;
+    height: 48px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 11px;
+    border-radius:8px ;
+}
+
+.search-icon{
+    position: relative;
+    right:33px;
+  font-size: 27px;
+}
+
+
+.song{
+    display: flex;
+    align-items: center;
+}
+
+.song-title{
+    text-align: left;
+}
+.songs-lists-arr{
+    overflow-y: scroll;
+    height:100%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+ 
+  ::-webkit-scrollbar-track {
+    background: black; 
+    opacity: 0.5;
+  }
+   
+ 
+  ::-webkit-scrollbar-thumb {
+    background: rgb(39, 35, 35); 
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

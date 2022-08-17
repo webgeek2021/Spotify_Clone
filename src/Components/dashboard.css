@@ -1,0 +1,36 @@
+
+.dashboard{
+    /* background-color:brown; */
+    padding: 10px;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    
+    /* background: linear-gradient(108.18deg, #201606 2.46%, #000000 99.84%); */
+}
+
+.navbar--panel{
+    margin-left: 15px;
+    /* background-color: green; */
+    
+}
+.songlist--panel{
+    height: 95vh;
+    /* overflow-y: scroll; */
+}
+/* .player--panel{
+    height:95vh; */
+    /* margin-bottom: 120px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: greenyellow;
+} */
+.nav-dropdown , .songlist-btn{
+    color:white;
+    font-size: 24px;
+    font-weight: 700;
+}
+

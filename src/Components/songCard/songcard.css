@@ -1,0 +1,42 @@
+
+.songCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 343px; */
+    /* background-color: aliceblue; */
+    margin-bottom: 4px;
+    height: 70px;
+    color:white;
+    /* background-color:blue; */
+    /* background-color: grey; */
+    opacity:0.6;
+    cursor: pointer;
+}
+
+.songImg{
+    object-fit: contain;
+    width:48px;
+    height:48px;
+    border-radius: 50%;
+    margin-right:9px;
+}
+.song-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width:80%;
+}
+.track-name{
+    font-size: 13px;
+    font-weight: 600;
+}
+.album-name{
+    font-size: 11px;
+    opacity:0.4
+}
+.song-duration{
+    font-size: 13px;
+}

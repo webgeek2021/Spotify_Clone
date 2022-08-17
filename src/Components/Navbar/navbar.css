@@ -1,0 +1,46 @@
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 98vh;
+}
+.offcanvas{
+    opacity: 0.9;
+    
+}
+.offcanvas-nav{
+    width: 100%;
+    height: 86vh;
+    /* opacity: 1; */
+}
+.navbar--nav {
+    width: 100%;
+}
+.navbar--nav ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color:#ffffff;
+} 
+.navbar--nav .nav-tag{
+    list-style: none;
+    margin-bottom: 14px ;
+    text-decoration: none;
+    opacity:0.5;
+}
+.profile-img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom:30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.navbar--nav .nav-tag:hover{
+    opacity: 1;
+}
